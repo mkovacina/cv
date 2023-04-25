@@ -1,5 +1,193 @@
-\documentclass[12pt]{article} 
+% CV template
+%
+% Author: Christopher Keyes
+% Updated: September 24, 2021
+%
+% OK to use and edit!
+
+\documentclass{cv_style}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage{amsmath}
+\usepackage[colorlinks = true, linkcolor = blue, urlcolor = blue, citecolor = blue, anchorcolor = blue]{hyperref}
 
 \begin{document}
-hi
+
+	\footnotetext[1]{Updated \today}
+    \pagenumbering{gobble}
+
+    \begin{center} \name{Michael A. Kovacina} 
+
+    \contact
+		{Affiliation}
+		{Department}
+		{Office}
+		{\href{mailto:michael.kovacina@gmail.com}{michael.kovacina@gmail.com}}
+		{\href{https://mkovacina.github.io}{https://mkovacina.github.io}}
+
+	\end{center}
+	
+	\section{Academic Interests}
+	Emergent behavior, swarm algorithms, agile methods
+
+	\section{Education}
+		\subsection{Graduate Institution}
+				\begin{itemize}
+					\item M.S., Case Western Reserve University (2005)
+					\item Advisor: Michael S. Branicky
+					\item Thesis: {\em Swarm Algorithms: Simulation and Generation}
+				\end{itemize}
+				
+		\subsection{Undergraduate Institution}
+				\begin{itemize}
+					\item B.S., John Carroll University, \textit{magna cum laude} (2001)
+				\end{itemize}
+		
+	\section{Work Experience}
+		\subsection{Hyland Software}
+			\subsubsection*{Enterprise Architect, OnBase}
+			\textit{Responsible for the maintenance and modernization of server-side OnBase functionality.}
+			\begin{itemize}
+				\item Created the OnBase architectural roadmap for platform modernization
+				\item Lead the effort to create architecture documentation for the legacy OnBase content services platform 
+				\item Collaborated with Product Management to influence the OnBase product roadmap
+				\item Mentored teams through technological and process challenges
+				\item Drove process improvements to the software delivery process
+				\item Evangelized DevOps philophies to improve partner delivery practices
+				\item Advised education sewrvices on devloper curriculums
+			\end{itemize}
+
+			\subsubsection*{Software Architect 4}
+			\textit{}
+			\begin{itemize}
+				\item Part of the team designing and implementing a content abstraction layer intended to allow new products to be built without needing to specifically target a repository.
+				\item Part of a team designing and implementing a method to bundle and deliver multiple services to unmanaged on-premise environments in a more manageable manner.
+				\item Collaborated with other architects across programs over multiple decision and design documents.
+				\item Occasionally willing to stir the pot as needed.
+				\item Worked with different agile teams to provide technical and subject matter guidance.
+				\item Part of a team that helped in the developer interview process in support of opening a new office in Poland.
+			\end{itemize}
+
+			\subsubsection*{System Architect}
+			\textit{}
+			\begin{itemize}
+				\item Served as system architect for a program whose focus is on building disparate platform and component products to enable other programs to deliver and deploy. Worked across teams, in and outside of the program, to facilitate technical and product decisions.
+				\item Member of the program leadership team, driving topics including the need to avoid breaking changes in software, how to increase stakeholder engagement, and how maximize delivered value through the creation of new organizational structures and processes that better aligned to the state of the software and the needs of the business.
+				\item Worked directly with various product owners and product managers to establish product roadmaps.
+			\end{itemize}
+
+			\subsubsection*{Technical Product Owner}
+			\textit{}
+			\begin{itemize}
+				\item Product owner of the architectural runway team for the content services platform tasked with transforming the existing ECM platform into a services-based cloud-orient content services platform. 
+			\end{itemize}
+
+			\subsubsection*{Senior Developer}
+			\textit{}
+			\begin{itemize}
+				\item Created a technical roadmap describing how to move OnBase to a cloud-hosted environment.
+				\item Part of the team writing a common C++ library to be shared across multiple mobile platforms intended to provide a common set of OnBase functionality when network connectivity is not available.
+				\item Part of the team that wrote the drag-and-drop designer for Unity Forms.
+				\item Taught and co-taught several classes intended to guide new developers through the Hyland software development lifecycle.
+				\item Product lead and one of the primary architects of the Unity Briefcase, a platform that provides offline access to OnBase content and functionality.
+				\item The technical point of contact on a team that worked with Allscripts HomeCare to integrate Unity Briefcase offline functionality with Allscripts HomeCare software.
+			\end{itemize}
+% \paper[Collaborator's name]{Title}{Status (e.g.\ in prep., submitted, accepted)}{(links)}
+
+	\section{Publications and Preprints}
+		\begin{etaremune}			
+			\item \paper
+				{A case study on open space technology as human swarm method for problem solving}
+				{Conference Paper}
+				{September 2015}
+
+			\item \paper
+				{Use of a mixed radix fitness function to evolve swarm behaviors}
+				{Conference Paper}
+				{September 2008}
+
+			\item \paper
+				{Intelligent/Adaptive Operators and Representation Modulation for Evolutionary Programming}
+				{Conference Paper}
+				{Septemver 2004}
+			
+			\item \paper
+				{Decentralized Cooperative Auction for Multiple Agent Task Allocation Using Synchronized Random Number Generators}
+				{Conference Paper}
+				{November 2003}
+
+			\item \paper
+				{Using a collection of humans as an execution testbed for swarm algorithms}
+				{Confernce Paper}
+				{May 2003}
+
+			\item \paper
+				{Self-referential Biological Inspiration: Humans Observing Human Swarms to Identify Swarm Programming Techniques}
+				{Conferecne Paper}
+				{January 2003}
+
+			\item \paper
+				{Swarm Rule-base Development using Genetic Programming Techniques}
+				{Conference Paper}
+				{January 2003}
+
+			\item \paper
+				{Java Implementation of a Swarm Software Platform: From Computer Simulations to a Robotic Swarm}
+				{Conference Paper}
+				{January 2001}
+
+			\item \paper
+				{Susceptibility of Swarm Control Algorithms to Agent Failure}
+				{Conference Paper}
+				{asdf}
+
+			\item \paper
+				{Multi-Agent Algorithms for Chemical Cloud Detection and Mapping Using Unmanned Air Vehicles}
+				{Conference Paper}
+				{February 2002}
+			
+		\end{etaremune}
+		
+%% % \talk{title}{venue}{host}{date}
+%% 		
+%% 	\section{Invited Talks}
+%% 		\begin{etaremune}
+%% 			\item \talk{Talk title}{Venue or location}{Host organization}{Date}
+%% 		\end{etaremune}
+%% 		
+%% 	\section{Contributed Talks}
+%% 		\begin{etaremune}
+%% 			\item \talk{Talk title}{Venue or location}{Host organization}{Date}
+%% 		\end{etaremune}
+		
+	\section{Teaching Experience}
+		\subsection{University Name}
+		\begin{itemize}
+			\item Instructor, Introduction to .NET (Fall 2011)
+			\item Instructor, Introduction to Service-Oriented Architecture (Fall 2019)
+			\item Instructor, Introduction to DevOps (Fall 2021)
+			\item Instructor, Data Structures (Fall 2022)
+			\item Instructor, Web Programming (Spring 2022)
+		\end{itemize}
+		
+%%	\section{Organization}
+%%	
+%%	\subsection{Seminars}
+%%	\begin{itemize}
+%%		\item Co-organizer of \textit{Seminar title}, with Collaborator Name(s) (semesters). Seminar \href{https://seminarwebsite.com}{website}.
+%%	\end{itemize}
+%%	
+%%	\subsection{Professional society chapter}
+%%	Do you run your school's professional society? If so, list that here.
+%%		
+%%	\section{Outreach}
+%%		\begin{itemize}
+%%			\item Instructor, Outreach program (dates).
+%%		\end{itemize}
+		
+%%	\section{Awards}
+%%		\begin{itemize}
+%%			\item Hyland Innovation Winner (2011)
+%%		\end{itemize}
+%%
 \end{document}
