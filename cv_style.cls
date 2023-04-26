@@ -40,13 +40,13 @@
 %	#3 building/address
 %	#4 email
 %	#5 website
-\newcommand{\contact}[5]{
-    #1\\ %institution
-    #2\\ %dept
-    #3\\ %building
-    \vspace{1em} 
-    #4 \\ %email
-    #5 \\ %website
+\newcommand{\contact}[2]{
+%%    #1\\ %institution
+%%    #2\\ %dept
+%%    #3\\ %building
+%%    \vspace{1em} 
+    #1 \\ %email
+    #2 \\ %website
 }
 
 % Command to produce your name, nice and big
