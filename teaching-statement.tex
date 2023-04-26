@@ -24,7 +24,24 @@
 \begin{document}
   \maketitle
 
-My approach to teaching is shapred by my over 20 years in industry as a researcher, programmer, and software architect.  As I frequently remind my students, computer science is a branch of mathematics, but computer programming is an art, a craft, and a trade.  Thus my goal in any class I teach is to focus on practical applications over abstract theory while weaving in non-technical experiences that prepare the students for life in industry.
+My approach to teaching is shaped by my over 20 years in industry as a researcher, programmer, and software architect.  As I frequently remind my students, computer science is a branch of mathematics, but computer programming is an art, a craft, and a trade.  Thus my goal in any class I teach is to focus on practical applications over abstract theory while weaving in non-technical experiences that prepare the students for life in industry.
 
-asdfo
+One of the primary teaching tools I use are stories.  I have found that personal, or sometimes just well-known, stories help to give the students not only context for a topic, but also helps them have a reason to engage with the topic beyond "getting the grade."  For example, recursion is a fundamental concept in both mathematics and computer science.  Outside of specialized areas, such as compiler design, and other academic pursuits, often times non-recursive solutions are preferred as they tend to have better performance characteristics at the expense of a more complex implementation.  My work on synchronization algorithms is inherently recursive, but as I found out on-site with a customer, my recursive implementation did not scale (i.e., the server ran out of memory).  Being able to transform that simple recursive implementation into a less recursive but more memory efficient implementation is an illustrative story.  The story shows that recursive implementations are important for smaller scale problems and prototypes while highlighting the value of being able to translate from recursive to non-recursive implementations.  Aside from the main point, there are several ancillary points that I can tangent to based on the class, such as the importance of boundary condition testing or the value of direct customer interaction.
+
+Regardless of the topic, I work to incorporate industry standard practices into the coursework to give the students a safe exposure to the tools and techniques that they will encounter, or need to push for, when they get into the "real world."  For example, programming assignments typically are submitted through GitHub.  This gives the student exposure to source control (\texttt{git}), peer review (pull requests), and the defacto source code management platform (GitHub).  Additionally I ask for most assignments that an automated testing approach be used as this requirement opens the door to many good programming practices such as test driven development, design patterns, and dependency injection.
+
+The ideal structure for assignments is one where each assignment builds on the previous assignments.  This approach helps to reinforce topics by showing how they integrate together instead of treating each subtopic in isolation.  This approach also reflects the iterative nature of building software, thus giving an opportunity to introduce agile methodologies without the need for a dedicated class.  
+
+Along with assignments, I do use quizzes and tests where appropriate as a feedback mechanism for myself to understand how I can improve.  While I understand the utility of tests and quizzes to assess learning, my preference is to use presentations and projects as those tend to align more with life in industry, thus my feedback on those projects and presentations can potentially have an impact beyond the class and into the student's career.
+
+As I have tried to express through the previous statements, the primary focus of my teaching philosophy is to provide practical information and applications that the student can use in the novice years of their career while leaving them with exposure to more advanced topics that they may encounter later in their career.  Though the fundamentals of computer science have not shifted much since my time at John Carroll, there have been a number of paradigm shifts in computer programming.  It is those paradigm shifts that I strive to account for, whether teaching a special topics class or a more standard topic such as data structures.
+
 \end{document}
+
+%%% Aside from the recursive considerations, there are several other practical points that this story identifies, including
+%%% \begin{itemize}
+%%%     \item when your software doesn't work, your customers can't work
+%%%     \item problems get resolved faster if you have a good relationship with the customer
+%%%     \item understanding the scope upfront minimizes rework later
+%%% \end{itemize}
+
